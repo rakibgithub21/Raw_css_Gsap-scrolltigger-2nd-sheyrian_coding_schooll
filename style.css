@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background: rgb(91, 177, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3 {
+    height: 100%;
+    width: 100%;
+    background: rgb(11, 114, 143);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border-radius: 50px;
+
+}
