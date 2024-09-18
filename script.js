@@ -66,3 +66,26 @@ gsap.from('#page1 #box', {
 //         pin:true // explore what is pin
 //     }
 // })
+
+
+
+
+
+// another practice
+
+
+gsap.to('#page2 h1', {
+    transform: "translateX(-350%)",
+    scrollTrigger: {
+        //alway if use pin trigger only parent like #page2 not #page2 h1
+
+        // trigger: "#page2 h1",
+        trigger:"#page2",//this is right way for pin
+        scroller: "body",
+        markers: true,
+        start: 'top 0%',
+        end: 'top -150%',
+        scrub:2,
+        pin: true,
+    }
+})

@@ -63,3 +63,34 @@ h2{
     padding: 10px;
     border-radius: 20px;
 } */
+
+/* --------------------------- */
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+body{
+    overflow-x: hidden;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(94, 156, 192, 0.432);
+}
+
+#page2 h1{
+    font-size: 20vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(76, 100, 49, 0.753);
+}
